@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 .contador-widget {
-  padding: 20px;
+  padding: 10px;
 }
 
 .contador-container {
@@ -69,8 +69,8 @@ export default {
   border-radius: 8px;
   color: #fff;
   background-color: #333;
-  width: 100px;
-  height: 120px;
+  width: 90px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;

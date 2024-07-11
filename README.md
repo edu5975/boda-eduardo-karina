@@ -34,4 +34,7 @@ publicPath: "/boda-eduardo-karina/"
 
 git add dist
 git commit -m "Initial dist subtree commit"
-git subtree push --prefix dist origin gh-page
+git subtree push --prefix dist origin gh-pages
+
+Para borrar utilizar
+git push origin -d gh-pages

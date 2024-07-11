@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     enviarConfirmacion() {
-      const scriptURL = "https://script.google.com/macros/s/AKfycbxyOQwr1PTSsFOKLO-B87TGAHnstKqAik_dVDtUN5qgOiYHRtNGsiXC_v_4yRYvYCM/exec";     
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxyOQwr1PTSsFOKLO-B87TGAHnstKqAik_dVDtUN5qgOiYHRtNGsiXC_v_4yRYvYCM/exec"
       const formData = new URLSearchParams();
       formData.append("nombre", this.nombre);
       formData.append("telefono", this.telefono);
