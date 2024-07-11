@@ -1,26 +1,62 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="container redondeado">
+    <HomeWidget />
+    <ReproductorWidget />
+    <ContadorWidget />
+    <MapaWidget />
+    <ItinerarioWidget />
+    <ListaRegalosWidget />    
+    <GaleriaWidget />
+    <VestimentaWidget/>
+    <ConfirmacionWidget />
+    <HashTagWidget/>
+    <FooterWidget/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeWidget from './components/HomeWidget.vue';
+import MapaWidget from './components/MapaWidget.vue';
+import ListaRegalosWidget from './components/ListaRegalosWidget.vue';
+import GaleriaWidget from './components/GaleriaWidget.vue';
+import ConfirmacionWidget from './components/ConfirmacionWidget.vue';
+import ItinerarioWidget from './components/ItinerarioWidget.vue';
+import ContadorWidget from './components/ContadorWidget.vue';
+import ReproductorWidget from './components/ReproductorWidget.vue';
+import HashTagWidget from './components/HashTagWidget.vue';
+import VestimentaWidget from './components/VestimentaWidget';
+import FooterWidget from './components/FooterWidget';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    HomeWidget,
+    MapaWidget,
+    ListaRegalosWidget,
+    GaleriaWidget,
+    ConfirmacionWidget,
+    ItinerarioWidget,
+    ContadorWidget,
+    ReproductorWidget,
+    HashTagWidget,
+    VestimentaWidget,
+    FooterWidget,
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+  :root {
+    background-color: darkgray;
+    padding: 15px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 10px 0;
+  }
+
+  
 </style>
